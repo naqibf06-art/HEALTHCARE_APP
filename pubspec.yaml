@@ -1,0 +1,44 @@
+name: healthcare_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^3.1.1
+  firebase_auth: ^5.1.1
+  cloud_firestore: ^5.0.2
+
+  # Encryption
+  encrypt: ^5.0.3
+
+  # IMPORTANT (NEW - untuk simpan key securely)
+  flutter_secure_storage: ^9.0.0
+
+  # health
+  health: ^9.0.0
+
+  # Graph
+  fl_chart: ^0.68.0
+
+  # Format Tarikh & Masa (DITAMBAH UNTUK DI-RUN BERSAMA KOD DASHBOARD BARU)
+  intl: ^0.19.0
+
+  http: ^1.2.0  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
